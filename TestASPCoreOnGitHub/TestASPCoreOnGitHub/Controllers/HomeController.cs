@@ -10,7 +10,7 @@ namespace TestASPCoreOnGitHub.Controllers
     {
         public string Index()
         {
-            return "Hello from MVC contoroller";
+            return "Hello from MVC contoroller";     
         }
 
 
