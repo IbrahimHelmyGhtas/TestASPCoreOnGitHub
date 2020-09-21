@@ -1,0 +1,19 @@
+﻿body {
+}
+
+.logo
+{
+    width:200px;
+    height:200px;
+    border:1px solid black;
+}
+
+
+.footer
+{
+ /*   position:absolute;
+    bottom:0;*/
+    width:100%;
+    white-space:nowrap;
+    line-height:60px;
+}

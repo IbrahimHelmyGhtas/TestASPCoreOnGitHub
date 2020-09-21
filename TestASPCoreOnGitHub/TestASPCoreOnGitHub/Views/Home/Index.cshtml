@@ -1,0 +1,120 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{ /// this is razor syntax  to write c# code in view page
+    /// and Razor View engine is responsible for convert this code to HTML code render on the client browser
+    Layout = "_Layout";
+
+}
+
+@*jumbotron div with gray background and rounding box  *@
+<section class="jumbotron text-center">
+    <div class="container">
+
+        <h1>Welcome to  BookStore </h1>
+
+
+        @* lead is type of fonts
+
+            text-muted make the font lighter and gray
+
+        *@
+        <p class="lead text-muted">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+
+        <p>
+            @* my-0,1,2,....    for padding  *@
+            <a href="#" class="btn btn-primary my-2">Search Books</a>
+        </p>
+
+    </div>
+
+</section>
+@* py-0,1,2,....    for padding
+
+    bg-light ---> gray background
+
+    card to make box with gray background
+
+
+    align-items-center  center vertiacally
+    justify-content-between ---> make items justfy in div
+     shadow-sm --> shadow arround div
+
+*@
+<div class="py-5 bg-light">
+    <div class="container">
+        <h3 class="h3">Top books</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+
+
+                    <svg class="img-thumbnail card-img-top" width="100%" height="255" xmlns="https://www.w3.org/2000/svg"></svg>
+                    <div class="card-body">
+
+                        <p class="card-text">
+                            this section will used to display short description of book
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+
+
+                            </div>
+                            <small class="text-muted">Author Name</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+
+
+                    <svg class="img-thumbnail card-img-top" width="100%" height="255" xmlns="https://www.w3.org/2000/svg"></svg>
+                    <div class="card-body">
+
+                        <p class="card-text">
+                            this section will used to display short description of book
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+
+
+                            </div>
+                            <small class="text-muted">Author Name</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm mb-4">
+
+
+                    <svg class="img-thumbnail card-img-top" width="100%" height="255" xmlns="https://www.w3.org/2000/svg"></svg>
+                    <div class="card-body">
+
+                        <p class="card-text">
+                            this section will used to display short description of book
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+
+
+                            </div>
+                            <small class="text-muted">Author Name</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
